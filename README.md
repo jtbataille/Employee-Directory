@@ -1,55 +1,54 @@
-# Unit 19 React Homework: Employee Directory
+# Employee Directory
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Technologies Used](#technologies-used)
+* [Application Demo](#application-demo)
+* [Contact Information](#contact-information)
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+## Description
+This application will allow users to view an entire employee directory at once so that managers and/or other employees can have quick access to non-sensitive information and data about other employees. Users may also filter these results by name.
 
-## User Story
+## Installation
+This application is deployed on [Heroku](#) for users to poke around and see how it functions.
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+Alternatively, users may clone this repository and use the following commands to make begin the application, entering them in an integrated terminal within the main directory:
 
-## Business Context
+* ```npm install express```
+* ```npm install express-handlebars```
+* ```npm install mysql```
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+After installing these packages to make sure the application functions, users should enter:
 
-## Acceptance Criteria
+* ```node server.js```
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+This final command will make the app listen on the LocalHost PORT.
 
-The user should be able to:
+If following these commands, users should open their own browsers and go to the following address to see the deployed application:
 
-  * Sort the table by at least one category
+> localhost:3000
 
-  * Filter the users by at least one property.
+## Technologies Used
+React, JSX, Node JS, HTML, CSS, JavaScript
 
-## Commit Early and Often
+## Application Demo
+After following the information in the [Installation](#installation) section above--database start within MySQL, navigating to the localhost, as well as running ```node server.js```---users will be greated with an opening page that looks like this:
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+![startPage](public/assets/img/startPage.png)
 
 
-## Submission on BCS
+--------------------------------------------------------------
 
-You are required to submit the following:
+![secondaryImg](public/assets/img/secondaryImg.png)
 
-* the URL to the deployed application
+In addition to being deployed on Heroku, here is a GIF showing the app's full functionality:
 
-* the URL to the Github repository
+![fullApp.gif](public/assets/gif/fullApp.gif)
 
+## Contact Information
+* Jarrod Bataille
+  * Portfolio Webpage: https://jtbataille.github.io/
+  * GitHub Profile: https://github.com/jtbataille
+  * E-mail Address: jtbataille@gmail.com
