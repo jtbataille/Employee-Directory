@@ -31,7 +31,7 @@ Users are also able to use the up or down arrows on the **"First Name"** or **"L
 
 In addition to being deployed on Heroku, here is a GIF showing the app's full functionality:
 
-![fullApp.gif](public/assets/gif/fullApp.gif)
+![employeeDirectory.gif](public/assets/gif/employeeDirectory.gif)
 
 ## Contact Information
 * Jarrod Bataille
