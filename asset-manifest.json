@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jtbataille/Employee-Directory/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/jtbataille/Employee-Directory/static/js/main.5bb5db4f.chunk.js",
+    "main.js.map": "/jtbataille/Employee-Directory/static/js/main.5bb5db4f.chunk.js.map",
+    "runtime-main.js": "/jtbataille/Employee-Directory/static/js/runtime-main.542181d6.js",
+    "runtime-main.js.map": "/jtbataille/Employee-Directory/static/js/runtime-main.542181d6.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/jtbataille/Employee-Directory/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.4ec42f4a.chunk.js": "/jtbataille/Employee-Directory/static/js/2.4ec42f4a.chunk.js",
+    "static/js/2.4ec42f4a.chunk.js.map": "/jtbataille/Employee-Directory/static/js/2.4ec42f4a.chunk.js.map",
+    "index.html": "/jtbataille/Employee-Directory/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/jtbataille/Employee-Directory/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.ab7136cd.chunk.css.map": "/jtbataille/Employee-Directory/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.4ec42f4a.chunk.js.LICENSE.txt": "/jtbataille/Employee-Directory/static/js/2.4ec42f4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.542181d6.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.4ec42f4a.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.5bb5db4f.chunk.js"
+  ]
+}
