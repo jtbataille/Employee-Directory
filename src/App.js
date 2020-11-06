@@ -10,7 +10,19 @@ class App extends Component {
     employees
   };
 
+  ascNameSort = () => {
+    let employees = this.state.employees;
 
+    employees.sort();
+    this.setState({ employees: employees });
+  };
+
+  descNameSort = () => {
+    let employees = this.state.employees;
+
+    employees.reverse();
+    this.setState({ employees: employees });
+  }
   
   render() {
     return (
@@ -18,6 +30,8 @@ class App extends Component {
         <Header />
         <Table 
           employees={this.state.employees}
+          ascNameSort={this.ascNameSort}
+          descNameSort={this.descNameSort}
         />
       </>
     );

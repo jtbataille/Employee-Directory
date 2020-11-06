@@ -1,70 +1,80 @@
 [
     {
       "id": 1,
-      "fullName": "James Dryke",
+      "firstName": "James",
+      "lastName": "Dryke",
       "role": "Lawyer",
       "phone": "123-456-7890",
       "email": "james@dryke.com"
     },
     {
         "id": 2,
-        "fullName": "Maria Garcia",
+        "firstName": "Maria",
+        "lastName": "Garcia",
         "role": "Operations Manager",
         "phone": "234-567-8901",
         "email": "maria@garcia.com"
     },
     {
         "id": 3,
-        "fullName": "Mary Smith",
+        "firstName": "Mary",
+        "lastName": "Smith",
         "role": "Quality Control",
         "phone": "345-678-9012",
         "email": "mary@smith.com"
     },
     {
         "id": 4,
-        "fullName": "David Woods",
+        "firstName": "David",
+        "lastName": "Woods",
         "role": "Receptionist",
         "phone": "456-789-0123",
         "email": "david@woods.com"
     },
     {
         "id": 5,
-        "fullName": "Robert Johnson",
+        "firstName": "Robert",
+        "lastName": "Johnson",
         "role": "Marketing Manager",
         "phone": "567-890-1234",
         "email": "robert@johnson.com" 
     },
     {
         "id": 6,
-        "fullName": "William Jones",
+        "firstName": "William",
+        "lastName": "Jones",
         "role": "Project Manager",
         "phone": "678-901-2345",
         "email": "william@jones.com"
     },
     {
         "id": 7,
-        "fullName": "Martha Thomas",
+        "firstName": "Martha",
+        "lastName": "Thomas",
         "role": "Bookkeeper",
         "phone": "789-012-3456",
         "email": "martha@thomas.com"
     },
     {
         "id": 8,
-        "fullName": "Henry Clark",
+        "firstName": "Henry",
+        "lastName": "Clark",
         "role": "Shipping Manager",
         "phone": "890-123-4567",
         "email": "henry@clark.com"
     },
     {
         "id": 9,
-        "fullName": "Samuel Davidson",
+        "firstName": "Samuel",
+        "lastName": "Davidson",
         "role": "IT Lead",
         "phone": "901-234-5678",
         "email": "samuel@davidson.com"
     },
     {
         "id": 10,
-        "fullName": "Elisabet Hernandez",
+        "firstName": "Elisabet",
+        "lastName": "Hernandez",
         "role": "CEO",
         "phone": "901-234-5678",
         "email": "elisabet@hernandez.com"
