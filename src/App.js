@@ -58,10 +58,12 @@ class App extends Component {
       <>
         <Header />
         <form onSubmit={this.handleSubmit}>
-          <span className='form-group'>
-              <input style={{marginTop:"15px", marginLeft:"20px"}} type='text' name='searchTerm' placeholder="First Name" value={this.state.searchTerm} onChange={this.handleInputChange} className="form-control" />
-              <button style={{marginTop:"10px", marginLeft:"20px"}} type='submit' onClick={this.handleFormSubmit}>Search</button>
-          </span>
+          <div className="col-sm-3 input-group float-right" style={{marginTop:"10px", marginLeft:"20px", marginBottom:"15px"}}>
+            <input type="text" class="form-control" name="searchTerm" placeholder="Employee's Name" value={this.state.searchTerm} onChange={this.handleInputChange} />
+            <div className="input-group-append">
+              <button className="btn btn-outline-secondary" type="submit" onClick={this.handleFormSubmit}>Search</button>
+            </div>
+          </div>
         </form>
         <Table 
           employees={this.state.employees}
