@@ -7,7 +7,9 @@ import employees from "./employees.json";
 
 class App extends Component {
   state = {
-    employees
+    employees,
+    searchedEmployee: [],
+    searchTerm: ''
   };
 
   ascFirstNameSort = () => {
@@ -37,11 +39,30 @@ class App extends Component {
     employees.sort(function(a, b) { return b.lastName.localeCompare(a.lastName)});
     this.setState({ employees: employees });
   }
+
+  handleInputChange = e => {
+    const { name, value } = e.target;
+    this.setState({[name]: value});
+  };
+
+  handleFormSubmit = e => {
+    e.preventDefault();
+
+    this.setState({
+      searchTerm: ''
+    });
+  }
   
   render() {
     return (
       <>
         <Header />
+        <form onSubmit={this.handleSubmit}>
+          <span className='form-group'>
+              <input style={{marginTop:"15px", marginLeft:"20px"}} type='text' name='searchTerm' placeholder="First Name" value={this.state.searchTerm} onChange={this.handleInputChange} className="form-control" />
+              <button style={{marginTop:"10px", marginLeft:"20px"}} type='submit' onClick={this.handleFormSubmit}>Search</button>
+          </span>
+        </form>
         <Table 
           employees={this.state.employees}
           ascFirstNameSort={this.ascFirstNameSort}

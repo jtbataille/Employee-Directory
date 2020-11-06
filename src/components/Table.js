@@ -5,7 +5,7 @@ import TableRows from './TableRows';
 
 function Table ({ employees, ascFirstNameSort, descFirstNameSort, ascLastNameSort, descLastNameSort }) {
     return (
-        <table style={{borderCollapse: "collapse", fontFamily: "arial, sans-serif", width: "100%"}}>
+        <table style={{borderCollapse:"collapse", border:"solid", borderWidth:"1px", fontFamily:"arial, sans-serif", width:"100%", margin:"20px"}}>
             <TableHeaders
                 ascFirstNameSort={ascFirstNameSort}
                 descFirstNameSort={descFirstNameSort}

@@ -4,12 +4,12 @@ function TableRows ({ employees }) {
     return (
         <>
             {employees.map(employee => (
-                <tr key={employee.id} style={{marginRight: "10px", paddingBottom: "15"}}>
-                    <td style={{backgroundColor: "#dddddd"}}>{employee.firstName}</td>
-                    <td>{employee.lastName}</td>
-                    <td  style={{backgroundColor: "#dddddd"}}>{employee.role}</td>
-                    <td>{employee.phone}</td>
-                    <td  style={{backgroundColor: "#dddddd"}}>{employee.email}</td>
+                <tr key={employee.id} style={{paddingBottom:"30px", borderCollapse:"collapse", border:"solid", borderWidth:"1px"}}>
+                    <td style={{backgroundColor:"#dddddd", paddingBottom:"30px", paddingLeft:"5px", borderCollapse:"collapse", border:"solid", borderWidth:"1px"}}>{employee.firstName}</td>
+                    <td style={{paddingBottom:"30px", paddingLeft:"5px", borderCollapse:"collapse", border:"solid", borderWidth:"1px"}}>{employee.lastName}</td>
+                    <td  style={{backgroundColor:"#dddddd", paddingBottom:"30px", paddingLeft:"5px", borderCollapse:"collapse", border:"solid", borderWidth:"1px"}}>{employee.role}</td>
+                    <td style={{paddingBottom:"30px", paddingLeft:"5px", borderCollapse:"collapse", border:"solid", borderWidth:"1px"}}>{employee.phone}</td>
+                    <td  style={{backgroundColor:"#dddddd", paddingBottom:"30px", paddingLeft:"5px", borderCollapse:"collapse", border:"solid", borderWidth:"1px"}}>{employee.email}</td>
                 </tr>
             ))}
         </>
